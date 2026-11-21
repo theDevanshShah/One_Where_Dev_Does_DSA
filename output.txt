@@ -1,0 +1,7 @@
+Hello World 
+Hello World Hello World 
+Hello World Hey Dev!Please enter value of xPlease enter value of yvalue of x is 19
+value of y is 200
+ Value of e = 4.5Please Enter your name
+Name is Devansh
+Full name is :  Devansh Shah
