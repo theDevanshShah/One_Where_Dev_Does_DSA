@@ -1,7 +1,34 @@
-Hello World 
-Hello World Hello World 
-Hello World Hey Dev!Please enter value of xPlease enter value of yvalue of x is 19
-value of y is 200
- Value of e = 4.5Please Enter your name
-Name is Devansh
-Full name is :  Devansh Shah
+Hello, world!
+C++ is fun to learn.
+
+=== Variables ===
+Age: 20
+Population: 8000000000
+Temperature: 21.5
+Price: $4.5
+Initial: D
+Learning C++: true
+Language: C++
+Days in a week: 7
+
+=== Arithmetic ===
+7 + 2 = 9
+7 - 2 = 5
+7 * 2 = 14
+7 / 2 = 3 (integer division)
+7.0 / 2 = 3.5 (decimal division)
+7 % 2 = 1 (remainder)
+
+=== Input and calculations ===
+Enter two whole numbers:
+First number: 19
+Second number: 200
+Sum: 219
+Difference: -181
+Product: 3800
+Quotient: 0.095
+Remainder: 19
+
+Enter a first name followed by the full name:
+First name: Devansh
+Full name: Devansh Shah
