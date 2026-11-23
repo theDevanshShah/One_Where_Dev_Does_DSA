@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/devanshshah/Desktop/One_Where_Dev_Does_DSA/Patterns'
+relocations:
+  - { offset: 0x4593, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x3211A, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x46B4, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_Patterns.cpp, symObjAddr: 0x270, symBinAddr: 0x100003DF8, symSize: 0x14 }
+  - { offset: 0x46CB, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x234, symBinAddr: 0x100003DBC, symSize: 0x3C }
+  - { offset: 0x46E9, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1DC, symBinAddr: 0x100003DA4, symSize: 0x18 }
+  - { offset: 0x4707, size: 0x8, addend: 0x0, symName: __Z9pattern_3v, symObjAddr: 0x134, symBinAddr: 0x100003CFC, symSize: 0xA8 }
+  - { offset: 0x4768, size: 0x8, addend: 0x0, symName: __Z9pattern_2v, symObjAddr: 0x90, symBinAddr: 0x100003C58, symSize: 0xA4 }
+  - { offset: 0x47C9, size: 0x8, addend: 0x0, symName: __Z9pattern_1v, symObjAddr: 0x0, symBinAddr: 0x100003BC8, symSize: 0x90 }
+...
