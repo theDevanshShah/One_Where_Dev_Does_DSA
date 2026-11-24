@@ -212,6 +212,40 @@ void pattern_10(int n)
     }
 }
 
+void pattern_11(int n)
+{
+    cout << "Pattern 11" << endl;
+
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j <= i; j++)
+        {
+            cout << "* ";
+        }
+        cout << endl;
+    }
+}
+
+void pattern_12(int n){
+    cout << "Pattern 12" << endl;
+
+    for(int i = 0; i <= n - 1; i++){
+        int start = 1;
+        if(i % 2 == 0){
+            start = 1;
+        }
+        else{
+            start = 0;
+        }
+        for(int j = 0; j <=i; j++){
+            cout << start;
+            start = 1 - start;
+        }
+        cout << "\n";
+    }
+}
+
+
 // Bonus Patterns From Code 360 By Coding Ninjas
 // Source -> https://www.naukri.com/code360/problems/inverted-left-half-pyramid_20323507?interviewProblemRedirection=true&search=half%20
 
@@ -237,7 +271,6 @@ void bonusPattern_1()
     }
 }
 
-
 int main()
 {
     // pattern_1();
@@ -250,8 +283,9 @@ int main()
     // pattern_8(5);
     // pattern_9(5);
     // pattern_10(5);
-    
-    
+    // pattern_11(5);
+    pattern_12(5);
+
     // Bonus Patterns
     // bonusPattern_1();
 
