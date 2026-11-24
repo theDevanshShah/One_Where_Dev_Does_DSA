@@ -118,7 +118,7 @@ void pattern_8(int n)
 {
     cout << "Pattern 8" << endl;
 
-    for (int i = n ; i > 0; i--)
+    for (int i = n; i > 0; i--)
     {
         // Space
         for (int j = 0; j < n - i; j++)
@@ -127,7 +127,7 @@ void pattern_8(int n)
         }
 
         // Star
-        for (int j = 0; j < 2*i - 1; j++)
+        for (int j = 0; j < 2 * i - 1; j++)
         {
             cout << "*";
         }
@@ -141,6 +141,103 @@ void pattern_8(int n)
     }
 }
 
+void pattern_9(int n)
+{
+    cout << "Pattern 9" << endl;
+
+    for (int i = 0; i < n; i++)
+    {
+        // Space
+        for (int j = 0; j < n - i - 1; j++)
+        {
+            cout << " ";
+        }
+
+        // Star
+        for (int j = 0; j < 2 * i + 1; j++)
+        {
+            cout << "*";
+        }
+
+        // Space
+        for (int j = 0; j < n - i - 1; j++)
+        {
+            cout << " ";
+        }
+        cout << "\n";
+    }
+
+    for (int i = n; i > 0; i--)
+    {
+        // Space
+        for (int j = 0; j < n - i; j++)
+        {
+            cout << " ";
+        }
+
+        // Star
+        for (int j = 0; j < 2 * i - 1; j++)
+        {
+            cout << "*";
+        }
+
+        // Space
+        for (int j = 0; j < n - i; j++)
+        {
+            cout << " ";
+        }
+        cout << "\n";
+    }
+}
+
+void pattern_10(int n)
+{
+    cout << "Pattern 10" << endl;
+
+    for (int i = 0; i < 5; i++)
+    {
+        for (int j = 0; j <= i; j++)
+        {
+            cout << "* ";
+        }
+        cout << endl;
+    }
+    for (int i = 4; i >= 1; i--)
+    {
+        for (int j = 1; j <= i; j++)
+        {
+            cout << "* ";
+        }
+        cout << endl;
+    }
+}
+
+// Bonus Patterns From Code 360 By Coding Ninjas
+// Source -> https://www.naukri.com/code360/problems/inverted-left-half-pyramid_20323507?interviewProblemRedirection=true&search=half%20
+
+void bonusPattern_1()
+{
+    cout << "Bonus Pattern 1" << endl;
+
+    for (int i = 5; i >= 1; i--)
+    {
+        // Spaces
+        for (int j = 5; j >= i; j--)
+        {
+            cout << " ";
+        }
+
+        // Stars
+        for (int j = 1; j <= i; j++)
+        {
+            cout << "*";
+        }
+
+        cout << endl;
+    }
+}
+
+
 int main()
 {
     // pattern_1();
@@ -150,7 +247,13 @@ int main()
     // pattern_5();
     // pattern_6();
     // pattern_7(5);
-    pattern_8(5);
+    // pattern_8(5);
+    // pattern_9(5);
+    // pattern_10(5);
+    
+    
+    // Bonus Patterns
+    // bonusPattern_1();
 
     return 0;
 }
